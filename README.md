@@ -85,7 +85,7 @@ int factorial(){
 
 Las instrucciones que genera este código y su traducción a hexadecimal se encuentran en:
 ```
-instruccionesTest.txt
+instructions.txt
 ```
 
 ## Comentario sobre la Unidad de Control
