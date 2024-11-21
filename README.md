@@ -92,7 +92,7 @@ instructions.txt
 Para construir el circuito de la unidad de control y direccionar correctamente las señales según el tipo de instrucción y operación, se construyó una hoja de cálculo que permite tener control visual de cómo trabaja la unidad de control. (Adjunto al repositorio).
 
 # COMENTARIO FINAL
-Este proyectó se sustentó el día 06 del mes 11 del año 2024 para la materia "Arquitectura de Computadores" de la carrera de Ingeniería de Sistemas y Computación de la Universidad Tecnológica de Pereira.
+Este proyectó se sustentó el día 20 del mes 11 del año 2024 para la materia "Arquitectura de Computadores" de la carrera de Ingeniería de Sistemas y Computación de la Universidad Tecnológica de Pereira.
 
 Docente: Juan Manuel Velásquez Isaza
 
