@@ -62,13 +62,25 @@ Para la prueba de este procesador, se pueden extraer instrucciones compiladas de
 La memoria está cargada con las instrucciones generadas para un código simple en C++:
 
 ```C++
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int suma(){
-    int x = 2;
-    int y = 4;
-    return x + y;
+int factorial(){
+    int n = 5;
+    if(n <= 1){
+        return 1;
+    }
+
+    int result = 1;
+
+    while (n > 1){
+        result *= n;
+        n--;
+    }
+
+    return result;
 }
+
 ```
 
 Las instrucciones que genera este código y su traducción a hexadecimal se encuentran en:
