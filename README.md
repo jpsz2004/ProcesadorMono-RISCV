@@ -1,6 +1,7 @@
 # PROCESADOR MONOCICLO
 Este proyecto contiene el circuito combinacional de un procesador monociclo para arquitectura RISC-V y sus componentes en la aplicación para simulación "Digital". 
 
+## Algunas observaciones importantes para el diseño circuital en "Digital"
 
 ## Salvedades
 > * La aplicación usada para realizar los componentes fue "Digital" Tomado de [https://github.com/hneemann/Digital.git]  
@@ -8,8 +9,7 @@ Este proyecto contiene el circuito combinacional de un procesador monociclo para
 ```
 insts.hex
 ```  
-> * Sin precargar la memoria, el proyecto mostrará todo en cero ya que la memoria del programa no tiene datos almacenados.  
-> * Las instrucciones de corrimiento sll, srl, sra, slt, sltu aún no se ejectuan como una operación original en la ALU. En su defecto, para esta versión, los displays muestran el nombre de la instrucción.
+> * Sin precargar la memoria, el proyecto mostrará todo en cero ya que la memoria del programa no tiene datos almacenados. 
 > * Si una de las instruccions no sigue el formato adecuado o tiene errores en su formato, "Digital" mostrará error.
 > * Este procesador no procesa pseudo instrucciones, sin embargo estas se pueden traducir fácilmente a instrucciones canónicas del RISC-V
 
@@ -48,6 +48,14 @@ Para ejecutar este programa, estando en el directorio mismo de este proyecto, ej
 python checksum.py
 ```
 Posteriormente, ingresa la linea hexadecimal a la cual le deseas calcular el checksum sin poner ':'
+
+Para calcular el mensaje entero con todas las instrucciones en dicho formato, puede ingresar todas las instrucciones en hexadecimal en el archivo formatAuto.py ubicado en la carpeta /Monocycle/Componentes/programas/generadorInstrucciones.  
+Para ejecutar este programa, estando en el directorio mismo de este proyecto, ejecuta:
+```
+python formatAuto.py
+```
+
+Esto generará el archivo 'instructions.hex' dentro de la ruta: /Monocycle/Componentes/procesador que será el archivo que el procesador usará como memoria de instrucciones
 
 ## Pruebas
 Para la prueba de este procesador, se pueden extraer instrucciones compiladas de un código en C++, o el lenguaje de preferencia usando: [https://godbolt.org]  
