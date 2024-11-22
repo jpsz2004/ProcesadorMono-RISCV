@@ -83,11 +83,6 @@ int factorial(){
 
 ```
 
-Las instrucciones que genera este código y su traducción a hexadecimal se encuentran en:
-```
-instructions.txt
-```
-
 ## Comentario sobre la Unidad de Control
 Para construir el circuito de la unidad de control y direccionar correctamente las señales según el tipo de instrucción y operación, se construyó una hoja de cálculo que permite tener control visual de cómo trabaja la unidad de control. (Adjunto al repositorio).
 
