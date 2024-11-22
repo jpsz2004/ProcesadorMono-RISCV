@@ -7,7 +7,7 @@ Este proyecto contiene el circuito combinacional de un procesador monociclo para
 > * La aplicación usada para realizar los componentes fue "Digital" Tomado de [https://github.com/hneemann/Digital.git]  
 > * "Digital" necesita que la memoria esté precargada. Es necesario que al intentar simular el circuito, se precargue la memoria según la dirección en donde se guardó todo el proyecto. El archivo se llama:
 ```
-insts.hex
+instructions.hex
 ```  
 > * Sin precargar la memoria, el proyecto mostrará todo en cero ya que la memoria del programa no tiene datos almacenados. 
 > * Si una de las instruccions no sigue el formato adecuado o tiene errores en su formato, "Digital" mostrará error.
