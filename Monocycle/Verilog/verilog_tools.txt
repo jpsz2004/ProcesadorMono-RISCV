@@ -1,0 +1,16 @@
+El proyecto se realizó con la ayuda de cuatro herramientas de software online, las cuales son:
+
+    1. **[RISC-V Instruction Encoder/Decoder](https://luplab.gitlab.io/rvcodecjs/)**:
+        - Herramienta que permite codificar y decodificar instrucciones RISC-V en formato hexadecimal, binario o ensamblador.
+
+    2. **[RISC-V Online Assembler](https://riscvasm.lucasteske.dev/#)**:
+        - Herramienta que permite ensamblar instrucciones a código hexadecimal. Además le otorga información sobre la dirección
+        de las funciones en la memoria.
+
+    3. **[CPULator](https://cpulator.01xz.net/?sys=rv32)**:
+        - Herramienta que permite simular el funcionamiento de un procesador RISC-V de 32 bits. Permite visualizar el estado de los registros,
+        la memoria y el stack.
+
+    4. **[Compiler Explorer](https://godbolt.org/)**:
+        - Herramienta que permite visualizar el código ensamblador generado por un compilador de C/C++ para distintas arquitecturas.
+        Además, permite visualizar el código ensamblador generado por un compilador de C/C++ para distintas arquitecturas.
