@@ -2,7 +2,7 @@
 using namespace std;
 
 int factorial(){
-    int n = 5;
+    int n = 10;
     if(n <= 1){
         return 1;
     }
@@ -15,9 +15,4 @@ int factorial(){
     }
 
     return result;
-}
-
-int main(){
-    cout << factorial() << endl;
-    return 0;
 }
